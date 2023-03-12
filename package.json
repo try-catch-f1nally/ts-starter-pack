@@ -15,8 +15,8 @@
     "build": "rimraf ./dist && tsc",
     "lint": "eslint --ignore-path .gitignore ./src/**/*.ts",
     "lint:fix": "eslint --ignore-path .gitignore --fix ./src/**/*.ts",
-    "format": "prettier --ignore-path .gitignore --ignore-unknown --check . && editorconfig-checker",
-    "format:fix": "prettier --ignore-path .gitignore --ignore-unknown --write . && editorconfig-checker",
+    "format": "prettier --ignore-path .gitignore --ignore-unknown --check . && ec",
+    "format:fix": "prettier --ignore-path .gitignore --ignore-unknown --write . && ec",
     "lintformatfix": "npm run lint:fix && npm run format:fix"
   },
   "repository": {
